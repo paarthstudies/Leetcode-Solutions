@@ -5,7 +5,6 @@ class Solution:
             res += i
         if res % k == 0:
             return 0
-        else:
-            return res % k
+        return res % k
         
         
